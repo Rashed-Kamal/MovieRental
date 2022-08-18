@@ -1,0 +1,15 @@
+﻿@model MovieRental.ViewModels.MovieListViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<ul>
+    @foreach (var movie in Model.Movies)
+    {
+        <li>@Html.ActionLink(movie.Name, "Details", new { id = movie.Id })</li>
+    }
+</ul>
+
