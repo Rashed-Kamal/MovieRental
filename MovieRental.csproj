@@ -175,10 +175,40 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202208180308525_InitialModel.cs" />
+    <Compile Include="Migrations\202208180308525_InitialModel.Designer.cs">
+      <DependentUpon>202208180308525_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202208180320397_AddIsSubscribedToNewsletter.cs" />
+    <Compile Include="Migrations\202208180320397_AddIsSubscribedToNewsletter.Designer.cs">
+      <DependentUpon>202208180320397_AddIsSubscribedToNewsletter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202208180327074_AddMembershipType.cs" />
+    <Compile Include="Migrations\202208180327074_AddMembershipType.Designer.cs">
+      <DependentUpon>202208180327074_AddMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202208180329215_PopulateMembershipTypes.cs" />
+    <Compile Include="Migrations\202208180329215_PopulateMembershipTypes.Designer.cs">
+      <DependentUpon>202208180329215_PopulateMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202208180345529_ApplyAnnotationsToCustomerName.cs" />
+    <Compile Include="Migrations\202208180345529_ApplyAnnotationsToCustomerName.Designer.cs">
+      <DependentUpon>202208180345529_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202208180436330_InitialModel1.cs" />
+    <Compile Include="Migrations\202208180436330_InitialModel1.Designer.cs">
+      <DependentUpon>202208180436330_InitialModel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202208180440310_ApplyAnnotationsToCustomerName1.cs" />
+    <Compile Include="Migrations\202208180440310_ApplyAnnotationsToCustomerName1.Designer.cs">
+      <DependentUpon>202208180440310_ApplyAnnotationsToCustomerName1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -262,6 +292,29 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202208180308525_InitialModel.resx">
+      <DependentUpon>202208180308525_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208180320397_AddIsSubscribedToNewsletter.resx">
+      <DependentUpon>202208180320397_AddIsSubscribedToNewsletter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208180327074_AddMembershipType.resx">
+      <DependentUpon>202208180327074_AddMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208180329215_PopulateMembershipTypes.resx">
+      <DependentUpon>202208180329215_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208180345529_ApplyAnnotationsToCustomerName.resx">
+      <DependentUpon>202208180345529_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208180436330_InitialModel1.resx">
+      <DependentUpon>202208180436330_InitialModel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208180440310_ApplyAnnotationsToCustomerName1.resx">
+      <DependentUpon>202208180440310_ApplyAnnotationsToCustomerName1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -214,3 +214,11 @@ C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieR
 C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.csproj.CopyComplete
 C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.dll
 C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.pdb
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.InitialModel.resources
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.csproj.GenerateResource.cache
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.AddIsSubscribedToNewsletter.resources
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.AddMembershipType.resources
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.PopulateMembershipTypes.resources
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.InitialModel1.resources
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.ApplyAnnotationsToCustomerName1.resources
