@@ -2,6 +2,7 @@
 using MovieRental.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -45,7 +46,7 @@ namespace MovieRental.Controllers
             //var customerName = cList.ElementAt(id - 1);
 
             // Customer data from Database
-            var customerName = _context.Customers.SingleOrDefault(c => c.Id == customerId); // Here query will be immidiately executed because of SingleOrDefault() method
+            var customerName = _context.Customers.Include(c=>c.MembershipType).SingleOrDefault(c => c.Id == customerId); // Here query will be immidiately executed because of SingleOrDefault() method
             if (customerName == null)
                 return HttpNotFound();
             
@@ -67,7 +68,7 @@ namespace MovieRental.Controllers
             //};
 
             // cusomer data from database
-            var customerList = _context.Customers;    // This Customer property is defined in DbSet in our DbContext
+            var customerList = _context.Customers.Include(c => c.MembershipType);    // This Customer property is defined in DbSet in our DbContext
                                                        // It is a Deffed execution. Query is not going to execute immidiately. It will execute when iterate over this customerList object.
                                                        // If we use ToList() method then it will execute.
 

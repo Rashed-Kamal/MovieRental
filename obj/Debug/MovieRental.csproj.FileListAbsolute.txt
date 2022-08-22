@@ -222,3 +222,8 @@ C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieR
 C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.ApplyAnnotationsToCustomerName.resources
 C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.InitialModel1.resources
 C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.ApplyAnnotationsToCustomerName1.resources
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.AddMembershipType1.resources
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.UpdateMembershipTypes.resources
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.PopulateUpdatedMembershipTypes.resources
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.PopulateUpdatedMembershipTypes1.resources
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.AddCustomerBirthDate.resources

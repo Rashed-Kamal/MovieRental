@@ -7,3 +7,13 @@
 <h2>Details</h2>
 
 <h3>@Model.Name</h3>
+
+@{ 
+    var displayBirth = Model.BirthDate == null ? "NoBirth" : null;
+}
+<ul>
+    <li>Membership Type: @Model.MembershipType.Name </li>
+
+    <li class="@displayBirth">Birthdate: @Model.BirthDate</li>
+
+</ul>
