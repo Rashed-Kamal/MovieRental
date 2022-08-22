@@ -27,12 +27,7 @@ namespace MovieRental.Controllers
         //-----------------------------------------------------------------------------------
 
 
-        // GET: Customers
-        public ActionResult Manage()
-        {
-            var customer = new Customer() { Id = 1, Name = "John" };
-            return View(customer);
-        }
+       
 
         [Route("customers/details")]
         public ActionResult Details(int customerId)

@@ -227,3 +227,6 @@ C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieR
 C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.PopulateUpdatedMembershipTypes.resources
 C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.PopulateUpdatedMembershipTypes1.resources
 C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.AddCustomerBirthDate.resources
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.InitiateMovieDb.resources
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.PopulateGenre.resources
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.AddAnnotationsToMovie.resources
