@@ -1,15 +1,33 @@
-﻿@model MovieRental.ViewModels.MovieListViewModel
+﻿@model IEnumerable<MovieRental.Models.Movie>
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Movies</h2>
 
-<ul>
-    @foreach (var movie in Model.Movies)
+<table border="1">
+    <thead>
+        <tr>
+            <th>Movie Name</th>
+            <th>Genre</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var movie in Model)
+        {
+            <tr>
+                <td>@Html.ActionLink(movie.Name, "Details", new { movieId = movie.Id })</td>                
+                <td>@movie.Genre.Name</td>
+            </tr>
+
+        }
+    </tbody>
+    </table>
+@*<ul>
+    @foreach (var movie in Model)
     {
         <li>@Html.ActionLink(movie.Name, "Details", new { id = movie.Id })</li>
     }
-</ul>
+</ul>*@
 

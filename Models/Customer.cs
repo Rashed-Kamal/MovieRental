@@ -12,6 +12,7 @@ namespace MovieRental.Models
         [Required]
         [StringLength(255)]
         public string Name { get; set; }
+        public DateTime? BirthDate { get; set; }
         public bool IsSubscribedToNewletter { get; set; }
         public MembershipType MembershipType { get; set; }      // nevigation property
         public byte MembershipTypeId { get; set; }
