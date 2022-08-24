@@ -9,12 +9,19 @@ namespace MovieRental.Models
     public class Customer
     {
         public int Id { get; set; }
+
         [Required]
         [StringLength(255)]
         public string Name { get; set; }
+
+        [Display(Name="Date of Birth")]
         public DateTime? BirthDate { get; set; }
-        public bool IsSubscribedToNewletter { get; set; }
+
+        [Display(Name="Subscribed to Newsletter?")]
+        public bool IsSubscribedToNewsletter { get; set; }
         public MembershipType MembershipType { get; set; }      // nevigation property
+
+        [Display(Name="Membership Type")]
         public byte MembershipTypeId { get; set; }
     }
 }

@@ -27,7 +27,40 @@ namespace MovieRental.Controllers
         //-----------------------------------------------------------------------------------
 
 
-       
+       public ActionResult New()
+        {
+            var membershipTypes = _context.MembershipTypes.ToList();
+            var viewModel = new CustomerFormViewModel
+            {
+                MembershipTypes = membershipTypes
+
+            };
+
+            return View("CustomerForm", viewModel);
+        }
+
+        [HttpPost]
+        public ActionResult Save(Customer customer)
+        {
+            if (customer.Id == 0)
+            {
+                _context.Customers.Add(customer);
+            }
+            else
+            {
+                var customerDbId = _context.Customers.Single(c=> c.Id == customer.Id);
+                // auto mapper
+                //tryUpdate
+
+                customerDbId.Name = customer.Name;
+                customerDbId.BirthDate = customer.BirthDate;
+                customerDbId.MembershipTypeId = customer.MembershipTypeId;
+                customerDbId.IsSubscribedToNewsletter = customer.IsSubscribedToNewsletter;
+            }
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Customers");
+        }
 
         [Route("customers/details")]
         public ActionResult Details(int customerId)
@@ -81,5 +114,18 @@ namespace MovieRental.Controllers
 
         //    };
         //}
+
+        public ActionResult Edit(int customerId)
+        {
+            var customer = _context.Customers.SingleOrDefault(c => c.Id == customerId);
+            if (customer == null)
+                HttpNotFound();
+            var viewModel = new CustomerFormViewModel
+            {
+                Customer = customer,
+                MembershipTypes = _context.MembershipTypes.ToList()
+            }; 
+            return View("CustomerForm", viewModel);
+        }
     }
 }

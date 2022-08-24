@@ -46,7 +46,7 @@ namespace MovieRental.Controllers
             //};
             //Movie movie = movies.ElementAt(id - 1);
             ////----------------------------------------
-            var movie = _context.Movies.Include(m => m.Genre).SingleOrDefault(m=>m.Id==movieId);
+            var movie = _context.Movies.Include(m => m.Genre).SingleOrDefault(m => m.Id == movieId);
             return View(movie);
         }
 
@@ -70,5 +70,6 @@ namespace MovieRental.Controllers
 
             return View(movieList);
         }
+
     }
 }
