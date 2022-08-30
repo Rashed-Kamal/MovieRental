@@ -231,3 +231,5 @@ C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieR
 C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.PopulateGenre.resources
 C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.AddAnnotationsToMovie.resources
 C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.CorrectCustomerSubscribtionSpelling.resources
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.MovieDateAddedUpdated.resources
+C:\Users\Rashed\Documents\STUDY USQ\ASPNET MVC C#\CodeWithMosh\MyProjects\MovieRental\obj\Debug\MovieRental.Migrations.MovieDateAddedUpdated1.resources
