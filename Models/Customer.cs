@@ -15,6 +15,7 @@ namespace MovieRental.Models
         public string Name { get; set; }
 
         [Display(Name="Date of Birth")]
+        [Min18YearsIfAMember]
         public DateTime? BirthDate { get; set; }
 
         [Display(Name="Subscribed to Newsletter?")]
