@@ -34,7 +34,7 @@ namespace MovieRental.Controllers
             var genreDetail = _context.Genres.ToList();
             var movieModel = new MovieFormViewModel
             {
-                
+                Movie = new Movie(),                
                 Genres = genreDetail
             };
             return View("MovieForm", movieModel);
@@ -70,8 +70,17 @@ namespace MovieRental.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Save(Movie movie)
         {
+            if (!ModelState.IsValid)
+            {
+                var movieModel = new MovieFormViewModel { 
+                    Movie= movie,
+                    Genres = _context.Genres.ToList()
+                };
+                return View("MovieForm", movieModel);
+            }
             if(movie.Id ==0)
             {
                 _context.Movies.Add(movie);
